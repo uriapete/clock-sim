@@ -3,6 +3,8 @@
  */
 package clockSim;
 
+import java.util.ArrayList;
+
 /**
  * @author Peter Uriarte
  * @version 0.1.0.0 (Epoch SemVer)
