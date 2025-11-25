@@ -115,5 +115,6 @@ public class ClockTime {
         // test OK
 
         System.out.println(test.stringTime());
+        // test OK
     }
 }
