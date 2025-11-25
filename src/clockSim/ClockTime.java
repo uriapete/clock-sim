@@ -63,9 +63,16 @@ public class ClockTime {
         int dayTime = unixSeconds % secsInDay;
 
         // add seconds, minutes, hours
-        timeList.add(dayTime%secsInMin);
-        timeList.add(dayTime/secsInMin);
-        timeList.add(dayTime/secsInHour);
+        // each item is the remainder from dividing by secsIn(x) members above
+
+        // seconds is the remainder by dividing by minutes
+        timeList.add((unixSeconds%secsInMin)/1);
+
+        // minutes is the remainder from dividing by hours (then converting to minutes)
+        timeList.add((unixSeconds%secsInHour)/secsInMin);
+
+        // hours is the remainder from dividing by days (then converting to hours)
+        timeList.add((unixSeconds%secsInDay)/secsInHour);
         
         // convert to true array
         int[] timeArr = new int[3];
