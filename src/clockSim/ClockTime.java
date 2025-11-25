@@ -45,6 +45,13 @@ public class ClockTime {
     }
 
     /**
+     * Default Constructor for ClockTime, with a default initial time.
+     */
+    public ClockTime(){
+        this(defaultTime);
+    }
+
+    /**
      * Returns the clock time as an array.
      * @return The clock time as an array, syled at [Seconds, Minutes, Hours]
      */
