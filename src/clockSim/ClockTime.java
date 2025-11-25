@@ -55,7 +55,7 @@ public class ClockTime {
      * Returns the clock time as an array.
      * @return The clock time as an array, syled at [Seconds, Minutes, Hours]
      */
-    protected int[] listTime(){
+    private int[] listTime(){
         // set up return list.
         ArrayList<Integer> timeList = new ArrayList<>(3);
 
