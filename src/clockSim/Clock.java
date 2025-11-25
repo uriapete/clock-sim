@@ -15,7 +15,7 @@ abstract class Clock {
     /**
      * Current time stored in a clock, stored as an integer which emulates Unix time behaviour.
      */
-    protected int clockTime;
+    protected ClockTime clockTime;
 
     /**
      * How much this clock drifts away from "true" time every second.
