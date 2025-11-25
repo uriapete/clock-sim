@@ -123,6 +123,13 @@ public class ClockTime {
     }
 
     /**
+     * Sets the clock time to the default.
+     */
+    protected void reset(){
+        unixSeconds=DEFAULT_TIME;
+    }
+
+    /**
      * Main method, used for testing.
      * @param args
      */
