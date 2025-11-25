@@ -19,22 +19,22 @@ public class ClockTime {
     /**
      * Amount of seconds in a day.
      */
-    protected final int secsInDay = 86400;
+    protected static final int secsInDay = 86400;
 
     /**
      * Amount of seconds in an hour.
      */
-    protected final int secsInHour = 3600;
+    protected static final int secsInHour = 3600;
 
     /**
      * Amount of seconds in a minute.
      */
-    protected final int secsInMin = 60;
+    protected static final int secsInMin = 60;
 
     /**
      * Default time set for a no-argument constructor of ClockTime.
      */
-    private final int defaultTime = 0;
+    private static final int defaultTime = 0;
 
     /**
      * Constructor for ClockTime with a setting for the initial time.
