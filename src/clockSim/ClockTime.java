@@ -116,6 +116,13 @@ public class ClockTime {
     }
 
     /**
+     * Adds another second to the clock.
+     */
+    protected void tick(){
+        ++unixSeconds;
+    }
+
+    /**
      * Main method, used for testing.
      * @param args
      */
