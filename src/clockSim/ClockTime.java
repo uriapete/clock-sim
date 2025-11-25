@@ -59,9 +59,6 @@ public class ClockTime {
         // set up return list.
         ArrayList<Integer> timeList = new ArrayList<>(3);
 
-        // loop time back if after 24 hours
-        int dayTime = unixSeconds % secsInDay;
-
         // add seconds, minutes, hours
         // each item is the remainder from dividing by secsIn(x) members above
 
