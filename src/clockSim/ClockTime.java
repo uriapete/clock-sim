@@ -109,6 +109,13 @@ public class ClockTime {
     }
 
     /**
+     * Prints the clock time to console. Does not print an end-of-line character.
+     */
+    protected void display(){
+        System.out.print(stringTime());
+    }
+
+    /**
      * Main method, used for testing.
      * @param args
      */
