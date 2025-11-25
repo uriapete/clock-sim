@@ -24,4 +24,10 @@ abstract class Clock {
      * Returns clockTime to 0.
      */
     protected abstract void reset();
+
+    /**
+     * Advances the clock by a virtual second.
+     * The clock's display will advance one second, but true time may advance more due to drift.
+     */
+    protected abstract void tick();
 }
