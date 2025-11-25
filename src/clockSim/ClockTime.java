@@ -32,6 +32,14 @@ public class ClockTime {
     protected final int secsInMin = 60;
 
     /**
+     * Constructor for ClockTime with a setting for the initial time.
+     * @param initTime The inital time for this clock in seconds.
+     */
+    public ClockTime(int initTime){
+        unixSeconds = initTime;
+    }
+
+    /**
      * Returns the clock time as an array.
      * @return The clock time as an array, syled at [Seconds, Minutes, Hours]
      */
