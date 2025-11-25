@@ -141,5 +141,9 @@ public class ClockTime {
 
         System.out.println(test.stringTime());
         // test OK
+
+        test.tick();
+        test.display();
+        // test OK
     }
 }
