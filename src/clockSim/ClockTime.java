@@ -108,5 +108,8 @@ public class ClockTime {
         // testing for 5:26:57 PM -> 17:26:57
         int initTime = (17*secsInHour)+(26*secsInMin)+(57);
         ClockTime test = new ClockTime(initTime);
+        // test OK
+
+        System.out.println(test.stringTime());
     }
 }
