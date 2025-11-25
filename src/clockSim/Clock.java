@@ -76,6 +76,32 @@ abstract class Clock {
     }
 
     /**
+     * Formats the clock time as a string.
+     * @return The string that represents the clock time in the format HH:MM:SS
+     */
+    protected String stringTime(){
+        // get the time in array form.
+        int[] timeArr = listTime();
+
+        // prepare return string.
+        String timeStr = "";
+
+        // for each value in array (going in order: hour, minute, second)
+        for(int i = timeArr.length-1;i>=0;--i){
+            // add the formatted string (if string is less than 2 chars, pad with 0s)
+            timeStr+=String.format("%02d", timeArr[i]);
+
+            // if this is not the end of string, add ":"
+            if (i>0) {
+                timeStr+=":";
+            }
+        }
+
+        // return string
+        return timeStr;
+    }
+
+    /**
      * Displays time in terminal.
      */
     public abstract void displayTime();
