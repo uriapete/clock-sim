@@ -9,6 +9,7 @@ public class SundialClock extends NaturalClock {
 
     @Override
     protected void reset() {
+        super.clockTime.reset();
     }
 
     @Override
