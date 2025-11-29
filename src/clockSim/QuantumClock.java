@@ -6,6 +6,6 @@ package clockSim;
  * @version 0.1.0.0 (MARKETING.BREAKING.FEATURE.PATCH) - 
  * Create class
  */
-public abstract class QuantumClock {
+public abstract class QuantumClock extends Clock {
 
 }
