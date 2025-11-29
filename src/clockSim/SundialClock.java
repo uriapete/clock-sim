@@ -7,4 +7,22 @@ package clockSim;
  */
 public class SundialClock extends NaturalClock {
 
+    @Override
+    protected void reset() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'reset'");
+    }
+
+    @Override
+    protected void tick() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'tick'");
+    }
+
+    @Override
+    public void displayTime() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'displayTime'");
+    }
+
 }
