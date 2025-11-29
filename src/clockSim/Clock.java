@@ -9,7 +9,8 @@ package clockSim;
  * double driftPerSecond,
  * virtual (empty) methods reset, tick, displayTime.
  * @author Peter Uriarte & Luis Martinez
- * @version 0.1.0.1 (Epoch SemVer)
+ * @version 0.1.1.0 (Epoch SemVer) -
+ * New protected getter - getClockTime()
  */
 abstract class Clock {
     /**
