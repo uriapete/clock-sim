@@ -9,6 +9,7 @@ package clockSim;
  * double driftPerSecond,
  * virtual (empty) methods reset, tick, displayTime.
  * @author Peter Uriarte & Luis Martinez
+ * @version 0.1.0.1 (Epoch SemVer)
  */
 abstract class Clock {
     /**
