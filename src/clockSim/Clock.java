@@ -18,6 +18,14 @@ abstract class Clock {
     protected ClockTime clockTime;
 
     /**
+     * Getter for the clock's ClockTime object.
+	 * @return the clockTime object.
+	 */
+	protected ClockTime getClockTime() {
+		return clockTime;
+	}
+
+	/**
      * How much this clock drifts away from "true" time every second.
      */
     private double driftPerSecond;
