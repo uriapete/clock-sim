@@ -21,6 +21,25 @@ abstract class Clock {
     private double driftPerSecond;
 
     /**
+     * Constructor.
+     * @param drift How much this clock drifts away from real time per tick (virtual second)
+     * @param initTime What time this clock starts at.
+     */
+    public Clock(double drift, int initTime){
+        driftPerSecond = drift;
+        clockTime = new ClockTime(initTime);
+    }
+
+    /**
+     * Constructor, with default value defined in ClockTime used as the initial time.
+     * @param drift How much this clock drifts away from real time per tick (virtual second)
+     */
+    public Clock(double drift){
+        driftPerSecond = drift;
+        clockTime = new ClockTime();
+    }
+
+    /**
      * Returns clockTime to 0.
      */
     protected abstract void reset();
