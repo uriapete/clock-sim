@@ -19,8 +19,6 @@ public class SundialClock extends NaturalClock {
 
     @Override
     public void displayTime() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'displayTime'");
     }
 
 }
