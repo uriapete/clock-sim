@@ -2,7 +2,7 @@ package clockSim;
 
 /**
  * Mid level class which represents set of digital clocks.
- * @author Luis Martinez
+ * @author Luis Martinez & Peter Uriarte
  * @version 0.1.1.0 (MARKETING.BREAKING.FEATURE.PATCH) - 
  * Extends Clock, new constructor
  */
