@@ -8,6 +8,11 @@ package clockSim;
 public class SundialClock extends NaturalClock {
 
     /**
+     * How much drift a sundial experiences per second.
+     */
+    private static final double DRIFT_PER_SECOND = 0;
+
+    /**
      * Constructor with a default initial time.
      */
     public SundialClock() {
