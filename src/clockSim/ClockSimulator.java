@@ -36,6 +36,8 @@ public class ClockSimulator {
 		Atomic Clock time [00:00:00] - total drift = 0 seconds
 		===================================
 		 */
+
+		System.out.println("Reported clock times after resetting:\n=====================================");
 	}
 
 }
