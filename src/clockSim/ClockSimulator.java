@@ -16,6 +16,26 @@ public class ClockSimulator {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		/*
+		Expected output:
+		Reported clock times after resetting:
+		=====================================
+		Sundial Clock time [00:00:00] - total drift = 0 seconds
+		Cuckoo Clock time [00:00:00] - total drift = 0 seconds
+		Grandfather Clock time [00:00:00] - total drift = 0 seconds
+		Wrist Clock time [00:00:00] - total drift = 0 seconds
+		Atomic Clock time [00:00:00] - total drift = 0 seconds
+
+		Running the clocks for one (1) week...
+
+		Reported clock times after running:
+		Sundial Clock time [00:00:00] - total drift = 0 seconds
+		Cuckoo Clock time [00:00:00] - total drift = 420 seconds
+		Grandfather Clock time [00:00:00] - total drift = 210 seconds
+		Wrist Clock time [00:00:00] - total drift = 20.9999 seconds
+		Atomic Clock time [00:00:00] - total drift = 0 seconds
+		===================================
+		 */
 	}
 
 }
