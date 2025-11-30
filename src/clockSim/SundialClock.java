@@ -35,4 +35,10 @@ public class SundialClock extends NaturalClock {
         System.out.printf("%18s", name+" ");
     }
 
+    public static void main(String[] args) {
+        SundialClock test = new SundialClock();
+
+        test.displayTime();
+    }
+
 }
