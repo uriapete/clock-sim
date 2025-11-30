@@ -51,7 +51,7 @@ public class SundialClock extends NaturalClock {
         test.displayTime();
         // OK
 
-        // tick clock for an hour
+        // tick clock for 6 mins
         for (int i = 0; i < 360; i++) {
             test.tick();
         }
