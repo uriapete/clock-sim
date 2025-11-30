@@ -17,6 +17,13 @@ public class ClockTime {
     private int unixSeconds;
 
     /**
+	 * @return the unixSeconds
+	 */
+	protected int getUnixSeconds() {
+		return unixSeconds;
+	}
+
+	/**
      * Amount of seconds in a day.
      */
     protected static final int SECS_IN_DAY = 86400;
