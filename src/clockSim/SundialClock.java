@@ -7,6 +7,13 @@ package clockSim;
  */
 public class SundialClock extends NaturalClock {
 
+    /**
+     * Constructor with a default initial time.
+     */
+    public SundialClock() {
+        super(0);
+    }
+
     @Override
     protected void reset() {
         super.clockTime.reset();
