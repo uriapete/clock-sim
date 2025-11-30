@@ -31,6 +31,8 @@ public class SundialClock extends NaturalClock {
 
     @Override
     public void displayTime() {
+        final String name = "Sundial Clock";
+        System.out.printf("%18s", name+" ");
     }
 
 }
