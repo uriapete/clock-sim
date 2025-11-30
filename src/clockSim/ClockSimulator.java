@@ -40,7 +40,6 @@ public class ClockSimulator {
 		Grandfather Clock time [00:00:00] - total drift = 210 seconds
 		Wrist Clock time [00:00:00] - total drift = 20.9999 seconds
 		Atomic Clock time [00:00:00] - total drift = 0 seconds
-		===================================
 		 */
 
 		System.out.println("Reported clock times after resetting:");
