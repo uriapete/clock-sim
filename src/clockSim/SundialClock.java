@@ -48,6 +48,17 @@ public class SundialClock extends NaturalClock {
         // tests display time
         test.displayTime();
         // OK
+
+        // tick clock for an hour
+        for (int i = 0; i < 360; i++) {
+            test.tick();
+        }
+        // confirm with display
+        test.displayTime();
+
+        // test reset and confirm
+        test.reset();
+        test.displayTime();
     }
 
 }
