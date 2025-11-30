@@ -40,6 +40,8 @@ public class SundialClock extends NaturalClock {
 
         // outputs:
         // Sundial Clock time [00:00:00] - total drift = 0 seconds
+
+        System.out.println();
     }
 
     public static void main(String[] args) {
