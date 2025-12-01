@@ -23,6 +23,7 @@ public class ClockSimulator {
 		Clock[] clocks = {
 			new SundialClock(),
 			new CuckooClock(),
+			new GrandfatherClock(),
 		};
 
 		/*
