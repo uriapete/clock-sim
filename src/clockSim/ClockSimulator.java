@@ -24,6 +24,7 @@ public class ClockSimulator {
 			new SundialClock(),
 			new CuckooClock(),
 			new GrandfatherClock(),
+			new AtomicClock(),
 		};
 
 		/*
