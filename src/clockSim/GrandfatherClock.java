@@ -3,7 +3,7 @@ package clockSim;
 /**
  * Class that represents a Grandfather Clock. (Bong! Bong!)
  * @author Luis Martinez & Peter Uriarte
- * @version 0.1.1.0 (marketing.BREAKING.Features.patch) - Implement abstracts
+ * @version 0.1.1.1 (marketing.BREAKING.Features.patch) - Correct test output in main
  */
 public class GrandfatherClock extends MechanicalClock {
 
