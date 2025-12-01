@@ -1,7 +1,7 @@
 package clockSim;
 
 /**
- * Class that represents a Cuckoo Clock. (Cuckoo! Cuckoo!)
+ * Class that represents a Grandfather Clock. (Bong! Bong!)
  * @author Luis Martinez & Peter Uriarte
  * @version 0.1.1.0 (marketing.BREAKING.Features.patch) - Implement abstracts
  */
