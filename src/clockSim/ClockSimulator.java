@@ -6,7 +6,7 @@ package clockSim;
 /**
  * A program that simulates workflow of multiple types of clocks for a week and compares how much they drift from real time.
  * @author Peter Uriarte
- * @version 0.1.4.0 (MARKETING.BREAKING.FEATURE.PATCH) - Add Atomic Clock
+ * @version 0.1.5.0 (MARKETING.BREAKING.FEATURE.PATCH) - Add Atomic Clock
  */
 public class ClockSimulator {
 
@@ -24,6 +24,7 @@ public class ClockSimulator {
 			new SundialClock(),
 			new CuckooClock(),
 			new GrandfatherClock(),
+			new WristClock(),
 			new AtomicClock(),
 		};
 
